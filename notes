@@ -1,0 +1,4 @@
+In a complete project in the index file just first use express and the use app for listing the port and then connect the database(mongodb) and import it in the index file.
+And we use middle ware in index file by using app dot use and then pass path and the route in it
+Scema ke validation ke liye express ka validation vala use kr skte h
+hash take 2 parameter first is the thing whome we want to secure like in our case password and the second parameter is salt to make the password more secure.Salt is like a extra bits to make a password more safe and hard to decode
